@@ -37,6 +37,7 @@ services:
       ALL_INCLUSIVE_ARCHIVE: "false"
       ENABLE_DELETION: "false"
       TIKA_URL: http://tika:9998
+      ENABLE_DELETION: true
       
     ports:
       - "4000:4000"
